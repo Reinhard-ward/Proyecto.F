@@ -1,0 +1,60 @@
+body {
+    background-color: #fcf8e3; /* Un amarillo muy claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.carta {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 450px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.title {
+    color: #ffc107; /* Amarillo de las flores */
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+}
+
+.message {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.flowers {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    font-style: italic;
+    color: #666;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
