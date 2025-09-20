@@ -1,60 +1,26 @@
-body {
-    background-color: #fcf8e3; /* Un amarillo muy claro */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    color: #333;
-    padding: 20px;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amiga Deysi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
 
-.carta {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 90%;
-    max-width: 450px;
-    animation: fadeIn 2s ease-in-out;
-}
+    <div class="background-wrapper">
+        <div class="card-container">
+            <img src="sun.png" alt="Sol decorativo" class="sun-decoration">
+            <div class="message-box left-box">
+                <p>tú eres esa amistad especial. ese alguien que al entrar en tu vida la cambia por completo. ese alguien que te hace reír por estupideces; ese alguien que te motiva. simplemente e es vida.</p>
+            </div>
+            <div class="message-box right-box">
+                <p>cuando estoy triste y el mundo parece vacío y oscuro tu amistad levanta mi ánimo y hace que ese mundo vacío y oscuro de rrepente parezca brillante y pleno.</p>
+            </div>
+            <img src="signpost.png" alt="Cartel de madera" class="signpost-decoration">
+        </div>
+    </div>
 
-.title {
-    color: #ffc107; /* Amarillo de las flores */
-    font-size: 3rem;
-    margin: 0 0 20px 0;
-}
-
-.message {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.flowers {
-    width: 100%;
-    max-width: 250px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.footer {
-    margin-top: 30px;
-    font-size: 1rem;
-    font-style: italic;
-    color: #666;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.9);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
+</body>
+</html>
